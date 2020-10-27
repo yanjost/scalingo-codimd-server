@@ -13,6 +13,7 @@
     "standard": "echo 'standard is no longer being used, use `npm run eslint` instead!' && exit 1",
     "dev": "webpack --config webpack.dev.js --progress --colors --watch",
     "heroku-prebuild": "bin/heroku",
+    "scalingo-prebuild": "bin/heroku",
     "build": "webpack --config webpack.prod.js --progress --colors --bail",
     "start": "sequelize db:migrate && node app.js"
   },
